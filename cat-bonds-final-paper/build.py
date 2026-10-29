@@ -79,7 +79,7 @@ def make_reference(path):
             pf = st.paragraph_format
             pf.line_spacing = LINE_SPACING
             pf.space_before = Pt(0)
-            pf.space_after = Pt(6)
+            pf.space_after = Pt(4)
             if name in ("Body Text", "First Paragraph"):
                 pf.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
     for name, size in (("Heading 1", 14), ("Heading 2", 12)):
@@ -234,7 +234,7 @@ def style_captions_and_refs(doc):
             pf.space_after = Pt(4)
             pf.line_spacing = 1.0
             for r in p.runs:
-                r.font.size = Pt(11)
+                r.font.size = Pt(10.5)
 
 
 def main():
