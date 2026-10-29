@@ -180,6 +180,10 @@ def format_tables(doc):
         rest = (1 - first_w) / (ncols - 1)
         total = Cm(21.59 - 5.0)
         for row_i, row in enumerate(table.rows):
+            tr_pr = row._tr.get_or_add_trPr()
+            tr_pr.append(OxmlElement("w:cantSplit"))
+            if row_i == 0:
+                tr_pr.append(OxmlElement("w:tblHeader"))
             for col_i, cell in enumerate(row.cells):
                 cell.width = int(total * (first_w if col_i == 0 else rest))
                 for p in cell.paragraphs:

@@ -1,44 +1,53 @@
-# Notes de vérification (à lire avant de remettre le travail)
+# Notes de vérification
 
-Ces notes accompagnent `paper.docx` / `paper.pdf`. Elles disent ce qui a été vérifié, comment, et ce qu'il te reste à contrôler dans les PDF des articles.
+Ces notes accompagnent `paper.docx` / `paper.pdf`. Depuis la dernière révision, chaque affirmation sur les trois articles principaux a été vérifiée dans leur texte complet.
 
-## Ce qui a été vérifié
+## Ce que la lecture des textes complets a changé
 
-Le réseau de la session ne donnait pas accès aux PDF complets (Springer, Elsevier, SSRN, RePEc étaient bloqués). Chaque affirmation sur un article a donc été vérifiée à partir de son résumé publié, de sa notice bibliographique ou de citations du texte trouvées par recherche web. Aucun chiffre, aucune date d'échantillon et aucun coefficient n'a été ajouté sans source.
-
-| Affirmation dans le travail | Source vérifiée | Statut |
+| Point | Avant (d'après les résumés) | Après (texte complet) |
 |---|---|---|
-| C&P (2015) : GARCH multivarié, ratios de couverture dynamiques lus comme des bêtas, zéro bêta seulement hors crise, corrélation significative après Lehman, effet plus faible que sur les autres actifs, bêtas revenus au niveau d'avant-crise avec les structures de 2009, faiblesses du compte de fiducie | résumé publié + résumé du document de travail (SSRN 2459974) | vérifié |
-| Drobetz et al. (2020) : indice Swiss Re Global Unhedged Cat Bond Performance Index (indications d'offre hebdomadaires), 6 classes d'actifs, DCC puis régression (Bouri et al., 2017), mauvaise couverture, bon diversificateur, valeur refuge forte contre les actions seulement après la crise | résumé ScienceDirect + extraits du texte | vérifié |
-| Haffar et Le Fur (2022) : copule-GARCH, dépendance variable dans le temps, portefeuille avec six indices boursiers (CAC 40, DJIA, EURO STOXX 50, FTSE 100, Hang Seng, Nikkei 225), meilleure performance ajustée au risque, l'un des meilleurs diversificateurs, plus faible hausse de la probabilité de co-mouvements extrêmes | résumé publié | vérifié |
-| Gürtler et al. (2016) : effet de la crise et de Katrina, lien positif avec les écarts de crédit corporatifs, « ne devraient pas être considérées comme des titres à bêta nul » | résumé publié | vérifié |
-| Braun (2016) : écarts des obligations de même notation parmi les déterminants | résumé du document de travail (2012) | probable : à confirmer dans la version publiée |
-| Herrmann et Hibbeln (2023) : 9 393 transactions TRACE 2015-2019, prime de liquidité ≈ 1/5 de l'écart | résumé SSRN (révisé en avril 2023) | vérifié sur le document de travail |
-| Feng et Zeng (2025) : diversificateur sur tout l'échantillon, valeur refuge contre actions et capital-investissement après l'épidémie, robuste aux rendements « désaplanis », sensibilité aux événements météo extrêmes | résumé Risk.net | vérifié |
-| Lehman, swap de rendement total sur 4 obligations (Ajax Re, Carillon, Newton Re, Willow Re) ; Ajax Re n'a pas remboursé tout son principal en mai 2009 | Artemis (2009), presse spécialisée | vérifié |
-| Mars 2020 : indice de prix Swiss Re −0,81 % la semaine du 20 mars, listes de ventes en bloc | Insurance Insider ILS (2020) | vérifié |
-| Obligations pandémiques de la Banque mondiale : 16,67 % (classe A) et 100 % (classe B) du principal à risque | Government Actuary's Department (2021) | vérifié |
-| Ouragan Ike : 13 septembre 2008 | presse ; Lehman : 15 septembre 2008 | vérifié |
-| Échantillons : C&P janvier 2002 à octobre 2013 ; Drobetz et al. hebdomadaire 2002-2018 ; ratios de couverture des CAT bonds « très proches de zéro dans toutes les sous-périodes » (C&P) | extraits des textes trouvés par recherche | vérifié |
-| Après 2009 : plus aucun swap de rendement total ; fin 2011, fonds monétaires du Trésor > 60 % des structures de collatéral (Artemis, 2011) | presse spécialisée | vérifié |
-| Campbell et Vuolteenaho (2004), Duffie (2010), Dimson (1979) : références et DOI | notices bibliographiques | vérifié (DOI de Dimson non confirmé par la recherche) |
-| Mars 2020 « temporaire » (The Insurer, mai 2020) | titre de l'article | vérifié |
-| Séisme de Tōhoku (mars 2011) qui fait chuter les actions japonaises ; crise LDI britannique et ouragan Ian (28 septembre 2022) | faits largement documentés, non cités | à garder tels quels ou à sourcer si le professeur l'exige |
+| Haffar et Le Fur : série CAT | supposée être un indice Swiss Re | un fonds, GAMSTAR Institutional USD Acc (GAM) ; 100 rendements mensuels, novembre 2011 à février 2020 |
+| Haffar et Le Fur : « co-mouvements extrêmes » | attribués à la copule | viennent des bêtas de co-kurtosis (0,015 contre 0,80 à 1,35 pour les indices boursiers) |
+| Haffar et Le Fur : limites | non connues | paramètre *a* de la copule nul ; probabilité de performance égale de 98 % ; poids nul du fonds dans le portefeuille le plus diversifié ; échantillon sans 2008 ni mars 2020 |
+| Drobetz et al. : sous-périodes | trois | deux : 2002-2008 (inclut l'automne 2008) et 2009-2018 |
+| Drobetz et al. : « strong safe haven » | définition à vérifier | coefficient d'indicatrice significativement négatif (éq. 5, p. 5) ; un seul coefficient sur trois (−0,091*, −0,101** après désaplanissement) ; corrélation implicite ≈ 0,01 |
+| Drobetz et al. : lissage | supposé biaiser les résultats | résultats « virtually unchanged » après désaplanissement ; autocorrélation d'ordre 1 négative (−0,34) |
+| Carayannopoulos et Perez : données | inconnues | indice Swiss Re BB (prix), 614 rendements hebdomadaires, janvier 2002 à octobre 2013 ; crise NBER décembre 2007 à mai 2009 |
+| Carayannopoulos et Perez : ouragan Ike | « à séparer » | les auteurs en discutent (p. 14-16) et le traitent comme un catalyseur, sans séparation formelle |
+| Collatéral après 2009 | source de presse | liste des actifs permis tirée de Carayannopoulos et Perez (p. 23) |
 
-DOI : tous les DOI ont été confirmés par recherche, sauf deux qui viennent de références standard non confirmées par la recherche : Baur et Lucey (2010) `10.1111/j.1540-6288.2010.00244.x` et Baur et McDermott (2010) `10.1016/j.jbankfin.2009.12.008`. Clique-les une fois avant l'impression.
+## Chiffres repris des articles (avec page)
 
-## À contrôler dans les PDF (10 minutes)
+- **Carayannopoulos et Perez (2015)**
+  - Corrélations avec le S&P 500 avant, pendant et après la crise : 0,016 / 0,252 / 0,058 ; avec les obligations de sociétés : 0,003 / 0,475 / 0,092 (tableau 2, p. 9).
+  - Corrélation MGARCH proche de zéro jusqu’à fin août 2008, 0,24 en mai 2009, retour au niveau d’avant-crise début 2011 (p. 13-14).
+  - Bêta maximal de 0,014 en janvier 2010, contre 0,13 pour les obligations de sociétés (p. 24).
+  - Écart-type hebdomadaire de 0,37 % puis 0,41 % pour les CAT bonds ; de 1,91 % à 4,49 % pour le S&P 500 (tableau 1, p. 7).
+  - Citation « are not zero-beta assets » (p. 21) ; citation sur les pertes « not from natural catastrophic events » (p. 22-23).
+- **Drobetz et al. (2020)**
+  - Les CAT bonds arrivent généralement à échéance en trois à quatre ans ; encours de 2,2 G$ en 2002 et de 23 G$ en juin 2017 (p. 2).
+  - 885 rendements hebdomadaires (tableau 1, p. 4).
+  - *m*₀ avec les actions : 0,1118 / 0,2418 / 0,1019 ; *m*₂ avant 2009 : 0,0724* (tableaux 2 et 3, p. 6).
+  - Citations (p. 5).
+- **Haffar et Le Fur (2022)**
+  - Données (p. 298).
+  - Ratio de Sharpe modifié : 0,112 contre 0,027 à 0,089 (tableau 3, p. 303).
+  - Contribution à la VaR : −0,54 % ; poids optimal nul (tableau 5, p. 304).
+  - Bêtas co-moments (tableau 6, p. 305).
+  - Paramètre *a* = 0 (tableau 2 et texte, p. 301-302) ; probabilité de performance égale de 98 % (p. 303).
 
-1. **Échantillon de Haffar et Le Fur (2022)** : il manque dans 2.5 et dans le tableau 1 (ligne « Data »). Ajoute la période et la fréquence. Vérifie aussi les dates des sous-périodes pré-crise / crise / post-crise de Drobetz et al.
-2. **Quel indice CAT utilisent C&P (2015) et Haffar et Le Fur (2022).** Si c'est un indice Swiss Re, la remarque sur le lissage (section 2.5 et 3.4) s'applique directement ; tu peux alors enlever le « if » de la phrase correspondante.
-3. **Les quantiles et la définition de « strong safe haven » chez Drobetz et al.** La section 2.2 affirme que, dans leur cadre (Bouri et al., 2017), « strong » veut dire une baisse significative de la corrélation pendant les semaines extrêmes, et non une corrélation négative. Vérifie dans leur section méthode ; si leur définition exige une corrélation négative, supprime le paragraphe « The word "strong" also changes meaning… ».
-4. **Si C&P contrôlent pour l'ouragan Ike** (septembre 2008). Si oui, ajuste la phrase de 2.3 (« Timing adds a further difficulty… ») pour dire qu'ils l'ont fait.
-5. **Braun (2016)** : confirme que les écarts des obligations corporatives de notation comparable figurent bien parmi les déterminants dans la version publiée.
+## Calcul des 40 à 80 points de base (section 3.3)
 
-## Le calcul de 40 à 80 points de base (section 3.3)
+L'équation (1) donne : variation de prix ≈ −durée × variation de prime. Pour une durée de 2 ans, 0,81 % / 2 ≈ 40 pb ; pour une durée d'un an, 0,81 % / 1 ≈ 80 pb. Une durée d'un à deux ans découle d'une échéance habituelle de trois à quatre ans (Drobetz et al., p. 2). Tu dois pouvoir l'expliquer à l'oral.
 
-Il découle de l'équation (1) : variation de prix ≈ −durée × variation de prime, donc 0,81 % / 2 ≈ 40 pb et 0,81 % / 1 ≈ 80 pb. L'hypothèse d'une durée de spread entre un et deux ans est écrite au conditionnel dans le texte. Tu dois pouvoir l'expliquer à l'oral.
+## Faits non cités (connaissances générales)
 
-## La date sur la page titre
+- Les tensions de financement autour de Bear Stearns (mars 2008).
+- La crise des fonds de pension britanniques (LDI) et l'arrivée de l'ouragan Ian (28 septembre 2022).
 
-La page titre indique « December 2026 ». Change-la pour la date du dernier cours si elle est différente (fichier `build.py`, variable `COVER`, ou directement dans Word).
+Ajoute une source si le professeur l'exige.
+
+## Restent à faire
+
+1. Ouvre `paper.docx` dans Word et vérifie que le document fait 15 pages au plus. Le PDF fait exactement 15 pages, avec environ un tiers de page libre à la fin.
+2. Corrige la date de la page titre (« December 2026 ») si besoin.
