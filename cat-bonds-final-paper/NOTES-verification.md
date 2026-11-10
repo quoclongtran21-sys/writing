@@ -49,7 +49,7 @@ Ajoute une source si le professeur l'exige.
 
 ## Révisions du 10 novembre 2026 (à partir de `paper_corrige.docx`)
 
-La base est la version corrigée dans Word (révision 6, 30 octobre). Elle faisait 17 pages ; celle-ci en fait 15 (PDF LibreOffice, polices métriquement identiques à Times New Roman), avec environ un tiers de page libre.
+La base est la version corrigée dans Word (révision 6, 30 octobre). Elle faisait 17 pages ; celle-ci en fait 14 (PDF LibreOffice, polices métriquement identiques à Times New Roman).
 
 ### Répartition des pages
 
@@ -57,18 +57,20 @@ La base est la version corrigée dans Word (révision 6, 30 octobre). Elle faisa
 |---|---|
 | Page titre | 1 |
 | 1. Introduction | 1,3 |
-| 2. Revue de littérature (2.1 à 2.7, avec le tableau 1) | 5,1 |
-| 3. Analyse (3.1 à 3.6, avec le tableau 2) | 5,3 |
+| 2. Revue de littérature (2.1 à 2.7, avec le tableau 1) | 5,2 |
+| 3. Analyse (3.1 à 3.6, avec le tableau 2) | 5,2 |
 | 4. Conclusion | 0,5 |
-| Bibliographie | 1,4 |
+| Bibliographie (16 références) | 0,8 |
 
 ### Ce qui a changé
 
 - **Revue de littérature portée à 5,1 pages.** La description complète des résultats de chaque article (régimes de Markov de Carayannopoulos et Perez, mécanismes cités par Drobetz et al., limites rapportées par Haffar et Le Fur eux-mêmes) est revenue en section 2. Une nouvelle section 2.7 dit ce que la littérature établit et ce qu'elle laisse ouvert, ce qui justifie l'analyse.
 - **Analyse.** La 3.1 évalue chaque article ; la 3.2 présente la contribution (la décomposition). Ajout en 3.1 : dans les 1 % pires semaines après 2009, les coefficients de Drobetz et al. donnent une corrélation de 0,15, supérieure à celle des semaines normales (0,10).
 - **Calculs expliqués en notes de bas de page** (il n'y a pas d'oral) : voir la section suivante.
-- **Références ajoutées** : Artemis (2008) pour la dégradation des quatre obligations Lehman ; BIS (2022) et Bank of England (2022) pour la crise LDI ; Bucci et al. (2023) pour l'ouragan Ian ; Artemis (2022) pour la chute de l'indice après Ian ; Engle (2002), Hamilton (1989) et Bollerslev, Engle et Wooldridge (1988) pour les méthodes DCC, Markov et VEC diagonal.
-- **Mise en page** : bibliographie en 10 pt, espace de 3 pt après les paragraphes, première colonne des tableaux plus étroite. DOI retirés des articles de revue (liste plus bas) ; URL conservées pour les sources web.
+- **Bibliographie réduite de 31 à 16 références.** Seules restent les sources qui portent l'argument : les 3 articles principaux ; 3 études divergentes ou complémentaires (Gürtler et al., Braun, Feng et Zeng) ; 2 pour les définitions (Baur et Lucey, Baur et McDermott) ; Cummins pour le fonctionnement des CAT bonds ; 2 pour le mécanisme de liquidité (Brunnermeier et Pedersen, Duffie) ; 3 pour la mesure (Forbes et Rigobon, Getmansky et al., Herrmann et Hibbeln) ; 2 articles de presse pour mars 2020. Les DOI sont de nouveau dans la bibliographie.
+- **Retirées, avec les phrases qui en dépendaient** : Artemis (2008, 2009, 2011, 2022), Bank of England (2022), BIS (2022), Bucci et al. (2023), Government Actuary's Department (2021), Froot (2001), Cummins et Weiss (2009), Campbell et Vuolteenaho (2004), Roll (1984), Bouri et al. (2017), Engle (2002), Hamilton (1989), Bollerslev et al. (1988). Ont donc disparu du texte : les noms des quatre obligations Lehman et le défaut d'Ajax Re, la part de 60 % des fonds monétaires en 2011, l'épisode LDI/Ian de septembre 2022 et les chiffres des obligations pandémie de la Banque mondiale. Aucune affirmation n'est restée sans source.
+- **Ajouts tirés des articles déjà cités** (pour garder la revue au-dessus de 5 pages) : prime de liquidité de 141 pb pour les obligations risquées et marché dominé par des courtiers sans inventaire (Herrmann et Hibbeln, résumé SSRN) ; corrélation asymétrique avec les matières premières pendant la pandémie (Feng et Zeng, résumé risk.net).
+- **Mise en page** : bibliographie en 10 pt, espace de 3 pt après les paragraphes, première colonne des tableaux plus étroite.
 
 ## Les calculs (notes de bas de page 1 à 6)
 
@@ -85,33 +87,7 @@ Tous ces chiffres ont été recalculés par script le 10 novembre.
 
 - **Haffar et Le Fur (2022)** : confirmé par la recherche web (Springer, RePEc) : *Journal of Asset Management*, vol. 23, n° 4, pp. 297–309, juillet 2022 (en ligne le 3 juin 2022).
 - **Feng et Zeng (2025)** : confirmés par risk.net : *Journal of Risk*, vol. 27, n° 4 (avril 2025), DOI 10.21314/JOR.2024.022. **Pages non trouvées** : retirées de la bibliographie. Ajoute-les depuis ton PDF de l'article.
-- **Nouvelles sources** : titres et dates confirmés par la recherche web (Banque d'Angleterre, 28 septembre 2022 ; BIS Quarterly Review, décembre 2022 ; rapport NHC sur Ian, 3 avril 2023 ; Artemis, 30 septembre 2008). La date exacte de l'article Artemis sur Ian n'a pas été trouvée (« 2022 »). Les pages elles-mêmes n'ont pas pu être ouvertes depuis cette session (domaines bloqués).
-- Engle (2002), Hamilton (1989) et Bollerslev, Engle et Wooldridge (1988) sont des références classiques ; leurs détails n'ont pas été revérifiés en ligne.
-
-## DOI retirés de la bibliographie (pour vérification)
-
-- Baur, Dirk G., and Brian M. Lucey (2010) : https://doi.org/10.1111/j.1540-6288.2010.00244.x
-- Baur, Dirk G., and Thomas K. McDermott (2010) : https://doi.org/10.1016/j.jbankfin.2009.12.008
-- Bollerslev, Tim, Robert F. Engle, and Jeffrey M. Wooldridge (1988) : https://doi.org/10.1086/261527
-- Bouri, Elie, Peter Molnár, Georges Azzi, David Roubaud, and Lars Ivar Hagfors (2017) : https://doi.org/10.1016/j.frl.2016.09.025
-- Braun, Alexander (2016) : https://doi.org/10.1111/jori.12067
-- Brunnermeier, Markus K., and Lasse Heje Pedersen (2009) : https://doi.org/10.1093/rfs/hhn098
-- Campbell, John Y., and Tuomo Vuolteenaho (2004) : https://doi.org/10.1257/0002828043052240
-- Carayannopoulos, Peter, and M. Fabricio Perez (2015) : https://doi.org/10.1057/gpp.2014.14
-- Cummins, J. David (2008) : https://doi.org/10.1111/j.1540-6296.2008.00127.x
-- Cummins, J. David, and Mary A. Weiss (2009) : https://doi.org/10.1111/j.1539-6975.2009.01311.x
-- Drobetz, Wolfgang, Henning Schröder, and Lars Tegtmeier (2020) : https://doi.org/10.1016/j.frl.2019.05.016
-- Duffie, Darrell (2010) : https://doi.org/10.1111/j.1540-6261.2010.01569.x
-- Engle, Robert (2002) : https://doi.org/10.1198/073500102288618487
-- Feng, Chi, and Xudong Zeng (2025) : https://doi.org/10.21314/JOR.2024.022
-- Forbes, Kristin J., and Roberto Rigobon (2002) : https://doi.org/10.1111/0022-1082.00494
-- Froot, Kenneth A. (2001) : https://doi.org/10.1016/S0304-405X(01)00052-6
-- Getmansky, Mila, Andrew W. Lo, and Igor Makarov (2004) : https://doi.org/10.1016/j.jfineco.2004.04.001
-- Gürtler, Marc, Martin Hibbeln, and Christine Winkelvos (2016) : https://doi.org/10.1111/jori.12057
-- Haffar, Adlane, and Éric Le Fur (2022) : https://doi.org/10.1057/s41260-022-00271-3
-- Hamilton, James D. (1989) : https://doi.org/10.2307/1912559
-- Herrmann, Markus, and Martin Hibbeln (2023) : https://doi.org/10.1111/jori.12407
-- Roll, Richard (1984) : https://doi.org/10.1111/j.1540-6261.1984.tb03897.x
+- La phrase « When Lehman Brothers, the swap counterparty of several CAT bonds, failed in September 2008, this structure failed with it » est maintenant rattachée au récit de Carayannopoulos et Perez (2015). Vérifie dans leur article qu'ils mentionnent bien Lehman comme contrepartie des swaps.
 
 ## Restent à faire
 
