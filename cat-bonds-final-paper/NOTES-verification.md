@@ -93,6 +93,10 @@ Tous ces chiffres ont été recalculés par script le 10 novembre.
 - **Feng et Zeng (2025)** : confirmés par risk.net : *Journal of Risk*, vol. 27, n° 4 (avril 2025), DOI 10.21314/JOR.2024.022. **Pages non trouvées** : retirées de la bibliographie. Ajoute-les depuis ton PDF de l'article.
 - La phrase « When Lehman Brothers, the swap counterparty of several CAT bonds, failed in September 2008, this structure failed with it » est maintenant rattachée au récit de Carayannopoulos et Perez (2015). Vérifie dans leur article qu'ils mentionnent bien Lehman comme contrepartie des swaps.
 
+## Test du nombre de pages (10 novembre)
+
+Word n'est pas disponible dans cette session ; le rendu est fait par LibreOffice avec Liberation Serif, de mêmes dimensions que Times New Roman. Test de robustesse : le document reste à 15 pages même avec un interligne de 1,18 au lieu de 1,15, après passage des notes et de la bibliographie à 9,5 pt et des tableaux à 9 pt. Le corps du texte reste en 12 pt, interligne 1,15.
+
 ## Restent à faire
 
 1. Ouvre `paper.docx` dans Word et vérifie qu'il fait 15 pages.

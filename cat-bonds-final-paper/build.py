@@ -91,7 +91,7 @@ def make_reference(path):
     names = [s.name for s in doc.styles]
     if "Footnote Text" in names:
         st = style_by_name(doc, "Footnote Text")
-        set_font(st, 10)
+        set_font(st, 9.5)
         pf = st.paragraph_format
         pf.line_spacing = 1.0
         pf.space_before = Pt(0)
@@ -203,7 +203,7 @@ def format_tables(doc):
                     p.alignment = WD_ALIGN_PARAGRAPH.LEFT
                     for r in p.runs:
                         r.font.name = FONT
-                        r.font.size = Pt(9.5)
+                        r.font.size = Pt(9)
                         if row_i == 0 or col_i == 0:
                             r.bold = True
 
@@ -249,7 +249,7 @@ def style_captions_and_refs(doc):
             pf.space_after = Pt(2)
             pf.line_spacing = 1.0
             for r in p.runs:
-                r.font.size = Pt(10)
+                r.font.size = Pt(9.5)
 
 
 def main():
