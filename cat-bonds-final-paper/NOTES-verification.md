@@ -42,10 +42,7 @@ L'équation (1) donne : variation de prix ≈ −durée × variation de prime. P
 
 ## Faits non cités (connaissances générales)
 
-- Les tensions de financement autour de Bear Stearns (mars 2008).
-- La crise des fonds de pension britanniques (LDI) et l'arrivée de l'ouragan Ian (28 septembre 2022).
-
-Ajoute une source si le professeur l'exige.
+Il n'en reste plus. Bear Stearns (mars 2008) et l'épisode LDI/Ian (septembre 2022) ont été retirés du texte.
 
 ## Révisions du 10 novembre 2026 (à partir de `paper_corrige.docx`)
 
