@@ -46,16 +46,16 @@ Il n'en reste plus. Bear Stearns (mars 2008) et l'épisode LDI/Ian (septembre 20
 
 ## Révisions du 10 novembre 2026 (à partir de `paper_corrige.docx`)
 
-La base est la version corrigée dans Word (révision 6, 30 octobre). Elle faisait 17 pages ; celle-ci en fait 14 (PDF LibreOffice, polices métriquement identiques à Times New Roman).
+La base est la version corrigée dans Word (révision 6, 30 octobre). Elle faisait 17 pages ; celle-ci en fait 15, avec environ 0,7 page libre (PDF LibreOffice, polices métriquement identiques à Times New Roman).
 
 ### Répartition des pages
 
 | Partie | Pages |
 |---|---|
 | Page titre | 1 |
-| 1. Introduction | 1,3 |
+| 1. Introduction | 1,6 |
 | 2. Revue de littérature (2.1 à 2.7, avec le tableau 1) | 5,2 |
-| 3. Analyse (3.1 à 3.6, avec le tableau 2) | 5,2 |
+| 3. Analyse : 3.1 critique des articles 0,9 ; 3.2 à 3.6 contribution 4,4 (avec le tableau 2) | 5,3 |
 | 4. Conclusion | 0,5 |
 | Bibliographie (16 références) | 0,8 |
 
