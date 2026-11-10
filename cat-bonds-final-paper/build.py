@@ -79,7 +79,7 @@ def make_reference(path):
             pf = st.paragraph_format
             pf.line_spacing = LINE_SPACING
             pf.space_before = Pt(0)
-            pf.space_after = Pt(4)
+            pf.space_after = Pt(3)
             if name in ("Body Text", "First Paragraph"):
                 pf.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
     for name, size in (("Heading 1", 14), ("Heading 2", 12)):
@@ -88,6 +88,17 @@ def make_reference(path):
         st.paragraph_format.space_before = Pt(12 if name == "Heading 1" else 9)
         st.paragraph_format.space_after = Pt(6)
         st.paragraph_format.keep_with_next = True
+    names = [s.name for s in doc.styles]
+    if "Footnote Text" in names:
+        st = style_by_name(doc, "Footnote Text")
+        set_font(st, 10)
+        pf = st.paragraph_format
+        pf.line_spacing = 1.0
+        pf.space_before = Pt(0)
+        pf.space_after = Pt(2)
+        pf.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+    if "Footnote Reference" in names:
+        set_font(style_by_name(doc, "Footnote Reference"))
     for name in ("Title", "Author", "Hyperlink"):
         if name in [s.name for s in doc.styles]:
             set_font(style_by_name(doc, name))
@@ -176,7 +187,7 @@ def format_tables(doc):
             spacing.set(qn("w:before"), "160")
             ppr.append(spacing)
         ncols = len(table.columns)
-        first_w = 0.16 if ncols == 4 else 0.24
+        first_w = 0.13 if ncols == 4 else 0.20
         rest = (1 - first_w) / (ncols - 1)
         total = Cm(21.59 - 5.0)
         for row_i, row in enumerate(table.rows):
@@ -235,10 +246,10 @@ def style_captions_and_refs(doc):
             pf.left_indent = Cm(1.0)
             pf.first_line_indent = Cm(-1.0)
             pf.alignment = WD_ALIGN_PARAGRAPH.LEFT
-            pf.space_after = Pt(4)
+            pf.space_after = Pt(2)
             pf.line_spacing = 1.0
             for r in p.runs:
-                r.font.size = Pt(10.5)
+                r.font.size = Pt(10)
 
 
 def main():
