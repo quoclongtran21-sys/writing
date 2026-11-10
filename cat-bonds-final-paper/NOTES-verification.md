@@ -54,12 +54,14 @@ La base est la version corrigée dans Word (révision 6, 30 octobre). Elle faisa
 |---|---|
 | Page titre | 1 |
 | 1. Introduction | 1,5 |
-| 2. Revue de littérature (2.1 à 2.7, avec le tableau 1) | 5,2 |
-| 3. Analyse : 3.1 critique des articles 0,9 ; 3.2 à 3.7 contribution 5,0 (avec le tableau 2) | 5,9 |
+| 2. Revue de littérature (logique de sélection, 2.1 à 2.7, tableau 1) | 5,2 |
+| 3. Analyse : 3.1 critique 0,9 ; 3.2 à 3.8 contribution 5,3 (tableaux 2 et 3) | 6,1 |
 | 4. Conclusion | 0,5 |
-| Bibliographie (16 références) | 0,8 |
+| Bibliographie (16 références) | 0,7 |
 
 ### Ce qui a changé
+
+- **Mise au niveau maîtrise** (grilles `thesis-writing` et `academic-paper-reviewer`) : logique de sélection des articles au début de la section 2 ; hypothèses A1 à A3 du modèle énoncées explicitement ; prédictions numérotées P1 à P3 ; Tableau 3 (« dummy table ») qui opérationnalise trois tests avec les données, les mesures et la prédiction de chaque explication ; nouvelle section 3.7 sur la validité interne et externe. Sections renumérotées : 3.6 Proposed solutions, 3.7 Validity, 3.8 Conclusion of the analysis. Toujours 16 références ; DOI des articles de revue retirés pour tenir en 15 pages (celui de Feng et Zeng est gardé).
 
 - **Nouvelle section 3.5, « Rival explanations »** (analyse personnelle, aucune nouvelle référence) : trois explications concurrentes (l'ouragan Ike, le calme des marchés après 2009, un artefact de mesure) confrontées aux données des articles, puis une implication qu'aucun article ne tire : la valeur refuge dépend de la base d'investisseurs. Les anciennes 3.5 et 3.6 deviennent 3.6 et 3.7.
 
