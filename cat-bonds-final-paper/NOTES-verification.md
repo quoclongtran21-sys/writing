@@ -61,6 +61,9 @@ La base est la version corrigée dans Word (révision 6, 30 octobre). Elle faisa
 
 ### Ce qui a changé
 
+- **Réponse aux trois faiblesses restantes.** (1) Originalité : trois contributions annoncées dans l'introduction (décomposition ; relecture des coefficients de Drobetz et al., corrélation de 0,15 dans les 1 % pires semaines ; proposition P4 sur la base d'investisseurs, testée en ligne 4 du Tableau 3). (2) Cases minces : la 3.7 explique que la case de 2008 ne peut contenir qu'un épisode (les règles de collatéral ont supprimé la structure) et que le test 1 utilise toutes les semaines de tension. (3) Le 0,81 % est présenté comme une variation d'indice rapportée par la presse et recoupé avec la prime de liquidité publiée par Herrmann et Hibbeln (98 et 141 pb).
+- **Feng et Zeng (2025), pp. 85–112** : pages remises. Dans le même numéro, l'article suivant (*Disaster insurance swaps*) occupe les pages 113–124, ce qui est cohérent, mais à confirmer dans le PDF.
+
 - **Mise au niveau maîtrise** (grilles `thesis-writing` et `academic-paper-reviewer`) : logique de sélection des articles au début de la section 2 ; hypothèses A1 à A3 du modèle énoncées explicitement ; prédictions numérotées P1 à P3 ; Tableau 3 (« dummy table ») qui opérationnalise trois tests avec les données, les mesures et la prédiction de chaque explication ; nouvelle section 3.7 sur la validité interne et externe. Sections renumérotées : 3.6 Proposed solutions, 3.7 Validity, 3.8 Conclusion of the analysis. Toujours 16 références ; DOI des articles de revue retirés pour tenir en 15 pages (celui de Feng et Zeng est gardé).
 
 - **Nouvelle section 3.5, « Rival explanations »** (analyse personnelle, aucune nouvelle référence) : trois explications concurrentes (l'ouragan Ike, le calme des marchés après 2009, un artefact de mesure) confrontées aux données des articles, puis une implication qu'aucun article ne tire : la valeur refuge dépend de la base d'investisseurs. Les anciennes 3.5 et 3.6 deviennent 3.6 et 3.7.
@@ -93,5 +96,5 @@ Tous ces chiffres ont été recalculés par script le 10 novembre.
 ## Restent à faire
 
 1. Ouvre `paper.docx` dans Word et vérifie qu'il fait 15 pages.
-2. Ajoute les pages de Feng et Zeng (2025) depuis le PDF.
+2. Confirme les pages 85–112 de Feng et Zeng (2025) dans le PDF, et regarde s'ils donnent la baisse de l'indice en mars 2020 : si oui, cite-les à la place d'Insurance Insider ILS.
 3. Corrige la date de la page titre (« December 2026 ») si besoin.

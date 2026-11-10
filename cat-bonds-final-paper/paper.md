@@ -15,9 +15,9 @@ The difference matters for investors and for risk managers. A diversifier lowers
 
 The three articles cannot settle the question as they stand, because they do not measure the same object. They use different series, frequencies, windows and definitions of stress (Table 1). None separates a crisis in which the collateral is at risk from one in which investors only need cash. Their conclusions contradict each other; their estimates need not.
 
-My research question is: **to what extent do CAT bonds retain their diversification benefits during financial stress, and why do published studies reach different answers?** I argue that the disagreement has little to do with whether catastrophes occur and much to do with how catastrophe risk is collateralised, priced and measured. My contribution is a decomposition of the CAT bond return into an insurance core, whose losses are nearly independent of markets for natural perils, and a financial wrapper, whose market exposure depends on the collateral structure and on the type of stress. The decomposition sorts the samples of the three articles into four regimes and yields testable predictions and proposals for investors. The answer it gives is conditional: CAT bonds remain a reliable diversifier, but their safe-haven property requires safe collateral and weakens when holders are forced to sell.
+My research question is: **to what extent do CAT bonds retain their diversification benefits during financial stress, and why do published studies reach different answers?** I argue that the disagreement has little to do with whether catastrophes occur and much to do with how catastrophe risk is collateralised, priced and measured. My contribution has three parts. The first is a decomposition of the CAT bond return into an insurance core, nearly independent of markets for natural perils, and a financial wrapper, whose market exposure depends on the collateral structure and on the type of stress; it sorts the three samples into four regimes. The second is a re-reading of the safe-haven evidence: the coefficients of Drobetz et al. imply a higher correlation in the worst 1 percent of post-crisis weeks than in ordinary weeks. The third is a prediction none of the articles makes: the safe-haven property depends on who holds the bonds. The answer it gives is conditional: CAT bonds remain a reliable diversifier, but their safe-haven property requires safe collateral and weakens when holders are forced to sell.
 
-The question raises three issues. The first is conceptual: diversifier, hedge, safe haven and zero beta are different properties, and evidence for one does not establish another. The second is economic: a CAT bond can move with the market because its collateral is exposed to a bank or because its holders must sell, and the two causes call for different remedies. The third is statistical: betas, correlations and copulas, estimated on different series and windows, can give different verdicts on the same bonds.
+The question raises three issues: a conceptual one, since diversifier, hedge, safe haven and zero beta are different properties; an economic one, since a CAT bond can move with the market because its collateral is exposed to a bank or because its holders must sell, two causes with different remedies; and a statistical one, since betas, correlations and copulas can disagree on the same bonds.
 
 The paper proceeds as follows. Section 2 explains how CAT bonds work, defines the properties tested, presents the three articles and related studies, and states what the literature leaves open. Section 3 assesses the articles, presents my contribution, the decomposition of the CAT bond return, applies it to four stress regimes, discusses measurement and rival explanations, proposes tests and portfolio rules, and assesses the validity of the analysis. Section 4 concludes.
 
@@ -162,7 +162,7 @@ The top-left cell contains one episode, the months after Lehman's failure. The t
 
 The bottom-right cell explains the favourable results. As swap-backed deals matured after 2009 the collateral channel closed, and I assume, as Table 3 can check, that post-crisis stock declines brought no forced selling on the scale of late 2008. The grid then predicts a beta close to zero and a weak safe haven, as observed. The whole sample of Haffar and Le Fur lies in this cell, which is why their result is favourable and says nothing about funding crises.
 
-March 2020 is the main test of the bottom-left cell: safe collateral combined with a severe scramble for cash. The framework predicts a fall driven by forced sales, no collateral loss, and a recovery. The Swiss Re price return index fell by 0.81 percent in the week to 20 March, with markdowns linked to bulk lists of bonds put up for sale (Insurance Insider ILS, 2020), and by May the sell-off was described as temporary (The Insurer, 2020). No natural catastrophe drove the fall and the collateral was safe, so in equation (1) *ℓ*~t~ = *k*~t~ = 0 and the fall equals *D*·Δ*π*~t~. With a spread duration of one to two years, the required premium rose by 0.81/*D*, about 40 to 80 basis points,[^duration] of the same order as the average liquidity premium of 98 basis points estimated by Herrmann and Hibbeln (2023). The premium channel thus opened but stayed small, consistent with Feng and Zeng still finding a safe haven; what the simple account does not predict is a fall linked to forced sales and then reversed.
+March 2020 is the main test of the bottom-left cell: safe collateral combined with a severe scramble for cash. The framework predicts a fall driven by forced sales, no collateral loss, and a recovery. The Swiss Re price return index fell by 0.81 percent in the week to 20 March, with markdowns linked to bulk lists of bonds put up for sale (Insurance Insider ILS, 2020), and by May the sell-off was described as temporary (The Insurer, 2020). No natural catastrophe drove the fall and the collateral was safe, so in equation (1) *ℓ*~t~ = *k*~t~ = 0 and the fall equals *D*·Δ*π*~t~. With a spread duration of one to two years, the required premium rose by 0.81/*D*, about 40 to 80 basis points,[^duration] of the same order as the liquidity premium estimated by Herrmann and Hibbeln (2023), 98 basis points on average and 141 for high-risk bonds. The 0.81 percent is a reported index move, not a published estimate, so the result is an order of magnitude, made credible by its agreement with this peer-reviewed measure. The premium channel thus opened but stayed small, consistent with Feng and Zeng still finding a safe haven; what the simple account does not predict is a fall linked to forced sales and then reversed.
 
 ## 3.4 Measurement choices that move the answer
 
@@ -172,7 +172,7 @@ The second is conditioning on volatility. Suppose the CAT bond return is *β* ti
 
 The third, smoothing, matters less than theory suggests. A smoothed index biases beta and correlation toward zero (Getmansky et al., 2004), but the results of Drobetz et al. and of Feng and Zeng hold with desmoothed returns. Smoothing also produces positive autocorrelation, while the index of Drobetz et al. has negative autocorrelation, which points instead to noise in quoted prices that reverses the following week, a problem desmoothing does not correct.
 
-The fourth, the choice of proxy, measure and window, matters most. Before the crisis the correlation with stocks is 0.016 in Carayannopoulos and Perez but about 0.24 in Drobetz et al. The few weeks of late 2008 in the second sample cannot explain the gap,[^late2008] which must come from the series (a BB price index against a global total return index), the measure (a sample correlation against the mean of a DCC series) and the comparison index.
+The fourth, the choice of proxy, measure and window, matters most. Before the crisis the correlation with stocks is 0.016 in Carayannopoulos and Perez but about 0.24 in Drobetz et al. The few weeks of late 2008 in the second sample cannot explain the gap,[^late2008] which must come from the series (BB price index or global total return index), the measure (sample correlation or mean DCC) and the comparison index.
 
 ## 3.5 Rival explanations
 
@@ -182,13 +182,13 @@ The first is that Hurricane Ike, not the financial crisis, caused the 2008 corre
 
 The second is that CAT bonds look safer after 2009 only because markets were calmer. This is the simple account in another form, and the evidence does not fully reject it. Two points favour the decomposition: the post-2009 sample of Drobetz et al. contains extreme stock weeks, and in March 2020 the fall stayed below 1 percent and reversed despite a severe scramble for cash. Both rest on few weeks, hence test 1 of Table 3.
 
-The third is that the measurement changed rather than the bonds. Quote noise in the Swiss Re indices lowers measured correlations, but it does so in every period. A measurement problem that is the same before and after 2009 cannot explain a change between the two periods, and the desmoothed estimates of Drobetz et al. and Feng and Zeng do not move.
+The third is that the measurement changed rather than the bonds. Quote noise lowers measured correlations, but in every period, so it cannot explain a change between periods, and the desmoothed estimates of Drobetz et al. and Feng and Zeng do not move.
 
-One implication follows that none of the articles draws. The premium channel depends on who holds the bonds. If a growing share is held by funds that promise frequent redemptions, the channel that stayed small in March 2020 can widen in the next funding crisis. The favourable post-2009 evidence thus describes a market with a given investor base, not a permanent property of the asset.
+One implication follows that none of the articles draws, and I state it as a fourth proposition. **P4.** The premium channel, and with it the crisis beta, rises with the share of bonds held by investors who must meet redemptions at short notice. If that share grows, the channel that stayed small in March 2020 can widen in the next funding crisis. The favourable post-2009 evidence thus describes a market with a given investor base, not a permanent property of the asset.
 
 ## 3.6 Proposed solutions
 
-**Tests that could prove the framework wrong.** Table 3 sets out three tests, their data and what each account predicts.
+**Tests that could prove the framework wrong.** Table 3 sets out four tests, their data and what each account predicts.
 
 **Table 3. Tests that would discriminate between the decomposition and the simple account**
 
@@ -197,30 +197,31 @@ One implication follows that none of the articles draws. The premium channel dep
 | 1. DCC~t~ = *c*~0~ + *c*~1~·Ext~t~ + *c*~2~·Fund~t~ + *c*~3~·Ext~t~·Fund~t~ | Weekly DCC of a Swiss Re index with stocks; Ext~t~: worst 5 percent of stock weeks; Fund~t~: top decile of the commercial paper–Treasury bill spread | *c*~1~ ≈ 0; *c*~3~ > 0 before and after 2009, smaller after (P2, P3) | *c*~3~ > 0 before 2009 only |
 | 2. Split of the 2008 beta | Prices of Lehman-swap bonds and of other CAT bonds, September to December 2008 | A gap between groups (collateral channel) and a common fall rising with duration (premium channel) | No prediction on the split |
 | 3. Path after a funding shock | Index prices and bid lists around March 2020 | A fall linked to bond sales, no collateral loss, recovery within months | Little or no fall in a safe-haven asset |
+| 4. Investor base | Holdings by funds with frequent redemptions, across funding-stress weeks | Larger stress betas when that share is higher (P4) | No relation |
 
 Source: proposed by the author.
 
-A fourth test would re-estimate Haffar and Le Fur's copula measures on weekly data including 2008 and March 2020, where the decomposition predicts stronger extreme co-movement in funding-crisis weeks. In every test, catastrophe weeks such as Ike's need their own dummies, betas should be reported next to correlations, crisis correlations adjusted for volatility (Forbes and Rigobon, 2002), and TRACE prices used where possible (Herrmann and Hibbeln, 2023).
+A fifth test would re-estimate Haffar and Le Fur's copula measures on weekly data including 2008 and March 2020, where the decomposition predicts stronger extreme co-movement in funding-crisis weeks. In every test, catastrophe weeks such as Ike's need their own dummies, betas should be reported next to correlations, crisis correlations adjusted for volatility (Forbes and Rigobon, 2002), and TRACE prices used where possible (Herrmann and Hibbeln, 2023).
 
 **Portfolio and market rules that remove what can be removed.**
 
 - ***Keep the collateral channel closed:*** require collateral in Treasury funds or government-backed notes, held in trust and marked to market, and check each issue.
-- ***Contain the premium channel:*** selling in a crisis turns a temporary markdown into a realised loss, so funds with frequent redemptions need notice periods, cash buffers or redemption limits, and value-at-risk should be stressed on a funding crisis such as March 2020.
+- ***Contain the premium channel:*** selling in a crisis turns a temporary markdown into a realised loss, so funds with frequent redemptions need notice periods or cash buffers (P4), and value-at-risk should be stressed on a funding crisis such as March 2020.
 - ***Classify perils honestly:*** bonds on macroeconomic perils, such as pandemics, are not zero-beta exposures.
 
 ## 3.7 Validity of the analysis
 
-*Internal validity.* The grid of Table 2 was built after reading the evidence, so its fit shows compatibility, not confirmation; only the tests of Table 3, on data not used to build it, can confirm it. Two cells are thin: the top-left rests on 2008, when both channels opened at once, and the bottom-left mainly on March 2020. The magnitudes depend on assumption A3 and on reported market falls, so the 40 to 80 basis points are an order of magnitude, not an estimate.
+*Internal validity.* The grid of Table 2 was built after reading the evidence, so its fit shows compatibility, not confirmation; only the tests of Table 3, on data not used to build it, can confirm it. Two cells are thin, for different reasons. The top-left can only contain 2008, because the collateral rules adopted afterwards (Section 2.1) removed the structure it describes; this is a feature of the market, not a gap in the review. The bottom-left rests mainly on March 2020 because funding crises are rare, which is why test 1 uses every week of funding stress rather than named episodes. The magnitudes depend on assumption A3 and on reported market falls, so the 40 to 80 basis points are an order of magnitude, not an estimate.
 
 *External validity.* The evidence comes from two Swiss Re indices built from dealer quotes and from one fund. Individual bonds, other perils and other investor bases may behave differently, and the conclusions do not extend to pandemic or systemic cyber bonds, for which A1 fails.
 
 ## 3.8 Conclusion of the analysis
 
-Whether CAT bonds are zero-beta assets depends on which part of the bond the question refers to. For natural perils the insurance core is zero-beta; the traded bond has a small beta in calm markets, one that can rise in a funding crisis, and one that rose, though it stayed economically small, in 2008. The safe-haven property depends on the structure of the asset and the type of stress, not only on the state of the market.
+Whether CAT bonds are zero-beta assets depends on which part of the bond the question refers to. For natural perils the insurance core is zero-beta; the traded bond has a small beta in calm markets, one that rose, though it stayed small, in 2008, and one that can rise in a funding crisis. The safe-haven property depends on the asset's structure, the type of stress and the investor base, not only on the state of the market.
 
 # 4. Conclusion
 
-This paper asked to what extent CAT bonds retain their diversification benefits during financial stress, and why studies disagree. The decomposition of Section 3.2 explains the disagreement: the three main articles sample different cells of Table 2 with different proxies, frequencies and windows, so their conclusions can diverge while their estimates are compatible.
+This paper asked to what extent CAT bonds retain their diversification benefits during financial stress, and why studies disagree. The three main articles sample different cells of Table 2 with different proxies and windows, so their conclusions can diverge while their estimates are compatible.
 
 The answer to the research question is therefore conditional. CAT bonds kept their diversification benefit in every episode reviewed; even after Lehman's failure their beta peaked at 0.014. Their safe-haven property holds, weakly, when the collateral is safe and holders are not forced to sell, and should erode when either condition fails. Investors should treat them as a diversifier, not as crisis insurance.
 
@@ -256,7 +257,7 @@ Drobetz, Wolfgang, Henning Schröder, and Lars Tegtmeier (2020). "The role of ca
 
 Duffie, Darrell (2010). "Presidential address: Asset price dynamics with slow-moving capital," *Journal of Finance*, vol. 65, no. 4, pp. 1237–1267.
 
-Feng, Chi, and Xudong Zeng (2025). "The Covid-19 pandemic and the portfolio diversification effect of catastrophe bonds," *Journal of Risk*, vol. 27, no. 4. https://doi.org/10.21314/JOR.2024.022
+Feng, Chi, and Xudong Zeng (2025). "The Covid-19 pandemic and the portfolio diversification effect of catastrophe bonds," *Journal of Risk*, vol. 27, no. 4, pp. 85–112. https://doi.org/10.21314/JOR.2024.022
 
 Forbes, Kristin J., and Roberto Rigobon (2002). "No contagion, only interdependence: Measuring stock market comovements," *Journal of Finance*, vol. 57, no. 5, pp. 2223–2261.
 
