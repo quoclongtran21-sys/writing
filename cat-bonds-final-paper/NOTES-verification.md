@@ -47,7 +47,20 @@ L'équation (1) donne : variation de prix ≈ −durée × variation de prime. P
 
 Ajoute une source si le professeur l'exige.
 
+## Révision du 10 novembre 2026 (à partir de `paper_corrige.docx`)
+
+La base est la version corrigée dans Word (révision 6, 30 octobre), pas l'ancien `paper.md`. Elle faisait 17 pages ; celle-ci en fait 15.
+
+- **Critique des articles déplacée dans l'Analyse.** Les paragraphes « limites » des sections 2.3 à 2.5 forment la nouvelle section 3.1, comme le demande la consigne (« Analysis: review of articles… »). La revue de littérature est descriptive, l'analyse est plus longue qu'elle (environ 3 100 mots contre 2 000).
+- **Contribution nommée.** Section 3.2 : « My contribution: a decomposition… ».
+- **Mars 2020 (3.3).** La phrase finale dit maintenant ce que seule la décomposition explique (une baisse liée aux ventes forcées, puis résorbée) au lieu de supposer que le canal de prime s'est ouvert.
+- **Mesure (3.4).** Ajout de Roll (1984) : une autocorrélation négative signale du bruit de cotation, pas du lissage. Le quatrième point explique enfin d'où vient l'écart 0,016 / 0,24 (série, mesure, indice de comparaison).
+- **Bibliographie.** « p. » remplacé par « pp. » pour les intervalles ; Roll (1984) ajouté.
+- **Coupes.** Détails secondaires (noms d'indices de Drobetz et al., ouragan Ivan, robustesse Markov, paramètres GARCH) et paragraphe d'introduction sur les trois courants de littérature (repris en une phrase en 3.6).
+
 ## Restent à faire
 
-1. Ouvre `paper.docx` dans Word et vérifie que le document fait 15 pages au plus. Le PDF fait exactement 15 pages, avec environ un tiers de page libre à la fin.
-2. Corrige la date de la page titre (« December 2026 ») si besoin.
+1. Ouvre `paper.docx` dans Word et vérifie le nombre de pages. Le PDF (LibreOffice, polices métriquement identiques à Times New Roman) fait 15 pages avec environ un tiers de page libre ; la version précédente donnait 17 pages dans les deux logiciels.
+2. Vérifie dans le PDF de Haffar et Le Fur les pages 297–309 (une recherche en ligne a donné une autre pagination, non confirmée) et, pour Feng et Zeng (2025), les pages 85–112.
+3. La crise LDI et l'arrivée de l'ouragan Ian (septembre 2022) restent sans source. Ajoute-en une si le professeur l'exige.
+4. Corrige la date de la page titre (« December 2026 ») si besoin.

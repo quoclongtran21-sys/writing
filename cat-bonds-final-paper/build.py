@@ -223,7 +223,7 @@ def style_captions_and_refs(doc):
     in_refs = False
     for p in doc.paragraphs:
         text = p.text.strip()
-        if p.style.name.startswith("Heading") and text.lower().startswith("references"):
+        if p.style.name.startswith("Heading") and text.lower().startswith(("references", "bibliography")):
             in_refs = True
             continue
         if text.startswith("Table ") and p.runs and p.runs[0].bold:
