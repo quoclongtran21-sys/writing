@@ -46,20 +46,22 @@ Il n'en reste plus. Bear Stearns (mars 2008) et l'épisode LDI/Ian (septembre 20
 
 ## Révisions du 10 novembre 2026 (à partir de `paper_corrige.docx`)
 
-La base est la version corrigée dans Word (révision 6, 30 octobre). Elle faisait 17 pages ; celle-ci en fait 15, avec environ 0,7 page libre (PDF LibreOffice, polices métriquement identiques à Times New Roman).
+La base est la version corrigée dans Word (révision 6, 30 octobre). Elle faisait 17 pages ; celle-ci en fait 15, avec environ 0,25 page libre (PDF LibreOffice, polices métriquement identiques à Times New Roman).
 
 ### Répartition des pages
 
 | Partie | Pages |
 |---|---|
 | Page titre | 1 |
-| 1. Introduction | 1,6 |
+| 1. Introduction | 1,5 |
 | 2. Revue de littérature (2.1 à 2.7, avec le tableau 1) | 5,2 |
-| 3. Analyse : 3.1 critique des articles 0,9 ; 3.2 à 3.6 contribution 4,4 (avec le tableau 2) | 5,3 |
+| 3. Analyse : 3.1 critique des articles 0,9 ; 3.2 à 3.7 contribution 5,0 (avec le tableau 2) | 5,9 |
 | 4. Conclusion | 0,5 |
 | Bibliographie (16 références) | 0,8 |
 
 ### Ce qui a changé
+
+- **Nouvelle section 3.5, « Rival explanations »** (analyse personnelle, aucune nouvelle référence) : trois explications concurrentes (l'ouragan Ike, le calme des marchés après 2009, un artefact de mesure) confrontées aux données des articles, puis une implication qu'aucun article ne tire : la valeur refuge dépend de la base d'investisseurs. Les anciennes 3.5 et 3.6 deviennent 3.6 et 3.7.
 
 - **Revue de littérature portée à 5,1 pages.** La description complète des résultats de chaque article (régimes de Markov de Carayannopoulos et Perez, mécanismes cités par Drobetz et al., limites rapportées par Haffar et Le Fur eux-mêmes) est revenue en section 2. Une nouvelle section 2.7 dit ce que la littérature établit et ce qu'elle laisse ouvert, ce qui justifie l'analyse.
 - **Analyse.** La 3.1 évalue chaque article ; la 3.2 présente la contribution (la décomposition). Ajout en 3.1 : dans les 1 % pires semaines après 2009, les coefficients de Drobetz et al. donnent une corrélation de 0,15, supérieure à celle des semaines normales (0,10).
